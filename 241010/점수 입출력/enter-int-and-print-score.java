@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         if(n >= 1 && n <= 1000){
-            System.out.printf("Your score is %d point\n", n);
+            System.out.printf("Your score is %d point.\n", n);
         }
     }
 }
