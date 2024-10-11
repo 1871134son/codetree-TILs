@@ -7,7 +7,6 @@ public class Main {
         int b = sc.nextInt();
         int c = sc.nextInt();
 
-        System.out.printf("%d %d\n",a,b);
-        System.out.printf("%d",c);
+        System.out.printf("%d %d %d\n",a,b,c);
     }
 }
