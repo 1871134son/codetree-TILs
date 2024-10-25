@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         double av = sc.nextDouble();
 
-        if(av>1.0)
+        if(av>=1.0)
         System.out.println("High");
         else if(av>0.5)
         System.out.println("Middle");
