@@ -13,5 +13,6 @@ public class Main {
         System.out.println("Tom");
         else if(n==3)
         System.out.println("Paul");
+        elseSystem.out.println("Vacancy");
     }
 }
