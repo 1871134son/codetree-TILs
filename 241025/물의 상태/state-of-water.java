@@ -11,8 +11,8 @@ public class Main {
         else if(water>=100){
             System.out.println("vapor");
         }
-        else[
+        else
             System.out.println("water");
-        ]
+        
     }
 }
