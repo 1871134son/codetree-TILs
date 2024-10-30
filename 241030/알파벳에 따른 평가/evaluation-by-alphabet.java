@@ -10,16 +10,16 @@ public class Main {
             System.out.println("Superior");
         }
         else if(n.equals('A')){
-            System.out.println("B");
-        }
-        else if(n.equals('B')){
             System.out.println("Excellent");
         }
-        else if(n.equals('C')){
+        else if(n.equals('B')){
             System.out.println("Good");
         }
-        else if(n.equals('D')){
+        else if(n.equals('C')){
             System.out.println("Usually");
+        }
+        else if(n.equals('D')){
+            System.out.println("Effort");
         }
         else{
             System.out.println("Faulure");
