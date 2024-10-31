@@ -7,29 +7,13 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-        int l = 0;
 
-        if(a<b && a < c){
-            l = a;
-        }
-        else if(a<b && c<b && c<a){
-            l = c;
-        }
-        else{
-            l = b;
-        }
+        int firstOutput = (a <= b && a <= c) ? 1 : 0;
 
-        if(a== l){
-            System.out.printf("1 ");
-        }
-        else{
-            System.out.printf("0 ");
-        }
-        if(a==b && b == c){
-            System.out.printf("1");
-        }
-        else{
-            System.out.println(0);
-        }
+        int secondOutput = (a == b && b == c) ? 1 : 0;
+
+        System.out.println(firstOutput + " " + secondOutput);
+
+        sc.close();
     }
 }
